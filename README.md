@@ -5,81 +5,49 @@ Tic Tac Toe GUI Game using Java
 
 📝 Introduction
 
-This project is a Graphical User Interface (GUI)-based Tic Tac Toe game developed using Java Swing.
-It allows two players (X and O) to play the game interactively on a 3×3 grid.
+This project is a GUI-based Tic Tac Toe game developed using Java Swing.
+It allows two players (X and O) to play the game on a 3×3 grid with real-time status updates, automatic winner detection, and score tracking.
+The interface is simple, interactive, and visually appealing.
 
-The application provides:
-
-Real-time turn updates
-Winner detection
-Score tracking (wins and draws)
-Simple and user-friendly interface
 🚀 Features
-🎯 2-player gameplay (Player X vs Player O)
-🖥️ Interactive GUI using Java Swing
-🔄 Automatic turn switching
-🏆 Winner detection with highlighted winning cells
-🤝 Draw detection
-📊 Score tracking (X wins, O wins, Draws)
-🔁 Reset/New Game button
-🎨 Color-based UI for better experience
+2-player gameplay (X vs O)
+Interactive GUI using Java Swing
+Automatic turn switching
+Winner detection with highlighted winning cells
+Draw detection
+Score tracking (X Wins, O Wins, Draws)
+Reset/New Game button
+Color-based UI for better experience
 🧱 Project Structure
 TicTacToeGUI.java
 README.md
-TicTacToeGUI.java → Main program file containing complete game logic and GUI
 🛠 Technologies Used
 Java (JDK 8 or above)
-Java Swing (GUI components)
-AWT (Layout & Events handling)
+Java Swing
+AWT (Layout and Event Handling)
 📚 Concepts Used
-
-This project demonstrates important Java concepts:
-
-Object-Oriented Programming (OOP)
+OOP (Classes & Objects)
 Event Handling (ActionListener)
-GUI Development using Swing
-Arrays (2D array for game board)
-Conditional Statements & Loops
-Methods and Modular Design
+GUI Components (JFrame, JButton, JPanel, JLabel)
+2D Arrays for game board
+Condition checks for winner and draw
+Methods and modular design
 ▶️ How to Run the Project
 Using Command Line
-Save the file as TicTacToeGUI.java
-Open terminal / command prompt
-Compile the code:
 javac TicTacToeGUI.java
-Run the program:
 java TicTacToeGUI
-Using IDE
-
-You can run the project in:
-
-IntelliJ IDEA
-Eclipse
-NetBeans
-
-Steps:
-
-Create a Java project
-Add the file
-Run main() method
+Using IDE (IntelliJ, Eclipse, NetBeans)
+Create a new Java project
+Add the file TicTacToeGUI.java
+Run the main() method
 🎮 How to Play
-The game starts with Player X
-Players take turns clicking empty cells
-The first player to align 3 marks:
-Row
-Column
-Diagonal
-wins the game
-If all cells are filled with no winner → Draw
-Click "New Game" to restart
-🧮 Example Gameplay
-Player X's Turn
-↓
-Player O's Turn
-↓
-Player X Wins!
+Player X starts the game
+Click an empty cell to mark it
+First player to align 3 marks (row, column, diagonal) wins
+If the board is full with no winner → Draw
+Click New Game to restart
 🎨 UI Highlights
-X is displayed in blue
-O is displayed in red
-Winning cells are highlighted in light green
-Status messages guide the players
+X is colored blue
+O is colored red
+Winning cells highlighted in light green
+Status bar updates player turn, wins, and draws
