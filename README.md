@@ -79,10 +79,6 @@ The interface is simple, interactive, and visually appealing.
 -   Online multiplayer\
 -   Timer for moves
 
-## 🧑‍💻 Author
-
-Dikshit Raj
-
 ## 📄 License
 
 Free to use for learning purposes.
